@@ -3,7 +3,6 @@ import sys, cv2, os
 import numpy as np
 import keras
 from keras.preprocessing import image as image_utils
-from scipy.spatial.distance import cdist
 
 def imgs_v(x):
       cv2.imshow('Rotat', np.array(x))
